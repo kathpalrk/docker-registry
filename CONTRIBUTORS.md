@@ -2,7 +2,7 @@
 
 ## Committers
 
-- Jones Magloire [@Joxit](https://github.com/Joxit)
+- Jones Magloire [@kathpalrk](https://github.com/kathpalrk)
 - Lennart Blom [@lennartblom](https://github.com/lennartblom)
 - Jakob Ackermann [@das7pad](https://github.com/das7pad)
 - Olivier Nizet [@onizet](https://github.com/onizet)
