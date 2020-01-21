@@ -71,7 +71,7 @@ Need more informations ? Try my [examples](https://github.com/Joxit/docker-regis
 First you need node and npm in order to download dependencies.
 
 ```sh
-git clone https://github.com/Joxit/docker-registry-ui.git
+git clone https://github.com/kathpalrk/docker-registry.git
 cd docker-registry-ui
 npm install
 ```
@@ -94,27 +94,27 @@ You can get the image in three ways
 From sources with this command:
 
 ```sh
-git clone https://github.com/Joxit/docker-registry-ui.git
+git clone https://github.com/kathpalrk/docker-registry.git
 # Alpine
-docker build -t joxit/docker-registry-ui:latest docker-registry-ui
-docker build -t joxit/docker-registry-ui:static -f docker-registry-ui/static.dockerfile docker-registry-ui
+docker build -t kathpalrk/docker-registry:latest docker-registry-ui
+docker build -t kathpalrk/docker-registry:static -f docker-registry-ui/static.dockerfile docker-registry-ui
 # Debian
-docker build -t joxit/docker-registry-ui:debian -f docker-registry-ui/debian.dockerfile docker-registry-ui
-docker build -t joxit/docker-registry-ui:static -f docker-registry-ui/debian-static.dockerfile docker-registry-ui
+docker build -t kathpalrk/docker-registry:debian -f docker-registry-ui/debian.dockerfile docker-registry-ui
+docker build -t kathpalrk/docker-registry:static -f docker-registry-ui/debian-static.dockerfile docker-registry-ui
 ```
 
 Or build with the url:
 
 ```sh
 # Alpine
-docker build -t joxit/docker-registry-ui:latest github.com/Joxit/docker-registry-ui
-docker build -t joxit/docker-registry-ui:static -f static.dockerfile github.com/Joxit/docker-registry-ui
+docker build -t kathpalrk/docker-registry:latest github.com/kathpalrk/docker-registry
+docker build -t kathpalrk/docker-registry:static -f static.dockerfile github.com/kathpalrk/docker-registry
 # Debian
-docker build -t joxit/docker-registry-ui:debian -f debian.dockerfile github.com/Joxit/docker-registry-ui
-docker build -t joxit/docker-registry-ui:debian-static -f debian-static.dockerfile github.com/Joxit/docker-registry-ui
+docker build -t kathpalrk/docker-registry:debian -f debian.dockerfile github.com/kathpalrk/docker-registry
+docker build -t kathpalrk/docker-registry:debian-static -f debian-static.dockerfile github.com/kathpalrk/docker-registry
 ```
 
-Or pull the image from [docker hub](https://hub.docker.com/r/joxit/docker-registry-ui/):
+Or pull the image from [docker hub](https://hub.docker.com/repository/docker/rahulkathpal/registry/):
 
 ```sh
 # Alpine
